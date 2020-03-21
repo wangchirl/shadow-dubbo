@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1693d99b-2af1-4a9a-8d81-eaec5f95004b" name="Default" comment="" />
+    <list default="true" id="1693d99b-2af1-4a9a-8d81-eaec5f95004b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/READMINE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-dubbo-spi/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/dubbospi/DubboSPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/dubbospi/service/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/dubbospi/service/aop/CarWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/dubbospi/service/impl/AudiCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/dubbospi/service/impl/RedFlagCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/dubbospi/service/ioc/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/dubbospi/service/ioc/impl/SuperMan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/javaspi/JavaSPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/javaspi/service/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/javaspi/service/impl/BlackColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/javaspi/service/impl/RedColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-dubbo-spi/src/main/resources/META-INF/services/com.shadow.dubbospi.service.Car" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-dubbo-spi/src/main/resources/META-INF/services/com.shadow.dubbospi.service.ioc.Person" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-dubbo-spi/src/main/resources/META-INF/services/com.shadow.javaspi.spi.com.shadow.java.service.Color" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common-api/src/main/java/com/shadow/dubbo/DemoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common-api/src/main/java/com/shadow/dubbospi/DemoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-xml-consumer/src/main/java/com/shadow/dubbo/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-xml-consumer/src/main/java/com/shadow/dubbospi/ConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-xml-consumer/src/main/resources/dubbo-consumer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-xml-consumer/src/main/resources/dubbo-consumer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-xml-provider/src/main/java/com/shadow/dubbo/ProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-xml-provider/src/main/java/com/shadow/dubbospi/ProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-xml-provider/src/main/java/com/shadow/dubbo/service/DemoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-xml-provider/src/main/java/com/shadow/dubbospi/service/DemoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-xml-provider/src/main/resources/dubbo-provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-xml-provider/src/main/resources/dubbo-provider.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/self-dubbo-application/src/main/java/framework/ProtocolFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/self-dubbo-application/src/main/java/framework/ProtocolFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/self-dubbo-application/src/main/java/provider/Provider.java" beforeDir="false" afterPath="$PROJECT_DIR$/self-dubbo-application/src/main/java/provider/Provider.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/dubbo-common-api/target/" />
@@ -10,6 +36,7 @@
     <ignored path="$PROJECT_DIR$/dubbo-xml-consumer/target/" />
     <ignored path="$PROJECT_DIR$/dubbo-xml-provider/target/" />
     <ignored path="$PROJECT_DIR$/self-dubbo-application/target/" />
+    <ignored path="$PROJECT_DIR$/java-dubbo-spi/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ProtocolFactory.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/self-dubbo-application/src/main/java/framework/ProtocolFactory.java">
+      <file leaf-file-name="JavaSPI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/javaspi/JavaSPI.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,20 +58,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="framework.Protocol" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/self-dubbo-application/src/main/resources/META-INF/services/framework.Protocol">
+      <file leaf-file-name="DubboSPI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/dubbospi/DubboSPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="41" column="32" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="READMINE.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/READMINE.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="219">
+                <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Car.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/dubbospi/service/Car.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="com.shadow.dubbospi.service.ioc.Person" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-dubbo-spi/src/main/resources/META-INF/services/com.shadow.dubbospi.service.ioc.Person">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="26" selection-start-column="26" selection-end-column="26" />
+              <caret column="9" selection-start-column="9" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Provider.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/self-dubbo-application/src/main/java/provider/Provider.java">
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/dubbospi/service/ioc/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+            <state relative-caret-position="95">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,13 +115,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProxyFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/self-dubbo-application/src/main/java/framework/ProxyFactory.java">
+      <file leaf-file-name="SuperMan.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/dubbospi/service/ioc/impl/SuperMan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="53" column="30" lean-forward="true" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+            <state relative-caret-position="222">
+              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,6 +141,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
       <map>
@@ -84,12 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dubbo-common-api/src/main/java/com/shadow/DemoService.java" />
-        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/shadow/dubbo/DemoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/dubbo-common-api/src/main/java/com/shadow/dubbo/DemoService.java" />
-        <option value="$PROJECT_DIR$/dubbo-provider/src/main/resources/dubbo-provider.xml" />
-        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/shadow/dubbo/ProviderApplication.java" />
-        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/shadow/dubbo/service/DemoServiceImpl.java" />
         <option value="$PROJECT_DIR$/dubbo-consumer/src/main/resources/dubbo-consumer.xml" />
         <option value="$PROJECT_DIR$/dubbo-consumer/src/main/java/com/shadow/dubbo/ConsumerApplication.java" />
         <option value="$PROJECT_DIR$/dubbo-consumer/pom.xml" />
@@ -121,6 +185,26 @@
         <option value="$PROJECT_DIR$/self-dubbo-application/src/main/java/framework/ProxyFactory.java" />
         <option value="$PROJECT_DIR$/self-dubbo-application/src/main/java/framework/ProtocolFactory.java" />
         <option value="$PROJECT_DIR$/self-dubbo-application/src/main/resources/META-INF/services/framework.Protocol" />
+        <option value="$PROJECT_DIR$/java-dubbo-spi/pom.xml" />
+        <option value="$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/java/spi/service/Color.java" />
+        <option value="$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/java/spi/service/impl/RedColor.java" />
+        <option value="$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/java/spi/service/impl/BlackColor.java" />
+        <option value="$PROJECT_DIR$/java-dubbo-spi/src/main/resources/META-INF/services/com.shadow.java.spi.service.Color" />
+        <option value="$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/java/spi/JavaSPI.java" />
+        <option value="$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/dubbo/spi/DubboSPI.java" />
+        <option value="$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/dubbospi/spi/DubboSPI.java" />
+        <option value="$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/javaspi/JavaSPI.java" />
+        <option value="$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/dubbospi/service/AudiCar.java" />
+        <option value="$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/dubbospi/service/impl/RedFlagCar.java" />
+        <option value="$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/dubbospi/service/impl/AudiCar.java" />
+        <option value="$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/dubbospi/service/aop/CarWrapper.java" />
+        <option value="$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/dubbospi/service/ioc/impl/SuperMan.java" />
+        <option value="$PROJECT_DIR$/java-dubbo-spi/src/main/resources/META-INF/services/com.shadow.dubbospi.service.Car" />
+        <option value="$PROJECT_DIR$/java-dubbo-spi/src/main/resources/META-INF/services/com.shadow.dubbospi.service.ioc.Person" />
+        <option value="$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/dubbospi/service/ioc/Person.java" />
+        <option value="$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/dubbospi/service/Car.java" />
+        <option value="$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/dubbospi/DubboSPI.java" />
+        <option value="$PROJECT_DIR$/READMINE.md" />
       </list>
     </option>
   </component>
@@ -163,9 +247,12 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="895" />
-    <option name="width" value="1121" />
+    <option name="x" value="277" />
+    <option name="width" value="1424" />
     <option name="height" value="1032" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -180,6 +267,141 @@
               <item name="shadow.dubbo" type="b2602c69:ProjectViewProjectNode" />
               <item name="shadow.dubbo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="shadow.dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shadow.dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="java-dubbo-spi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shadow.dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shadow.dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="java-dubbo-spi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shadow.dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shadow.dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="java-dubbo-spi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shadow.dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shadow.dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="java-dubbo-spi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shadow.dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shadow.dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="java-dubbo-spi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shadow.dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shadow.dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="java-dubbo-spi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="shadow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shadow.dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shadow.dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="java-dubbo-spi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="shadow" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbospi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shadow.dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shadow.dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="java-dubbo-spi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="shadow" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbospi" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shadow.dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shadow.dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="java-dubbo-spi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="shadow" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbospi" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shadow.dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shadow.dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="java-dubbo-spi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="shadow" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbospi" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="ioc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shadow.dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shadow.dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="java-dubbo-spi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="shadow" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbospi" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="ioc" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shadow.dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shadow.dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="java-dubbo-spi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shadow.dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shadow.dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="java-dubbo-spi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shadow.dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shadow.dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="java-dubbo-spi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -189,7 +411,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="DubboBean&#9;PSI&#9;JAVA://com.alibaba.dubbo.config.spring.schema.DubboBeanDefinitionParser&#10;Dubbo&#9;PSI&#9;JAVA://com.alibaba.dubbo.common.utils.DubboAppender" />
+    <property name="SearchEverywhereHistoryKey" value="ServiceLoad&#9;PSI&#9;JAVA://java.util.ServiceLoader&#10;ExtensionLo&#9;PSI&#9;JAVA://com.alibaba.dubbo.common.extension.ExtensionLoader&#10;DubboBean&#9;PSI&#9;JAVA://com.alibaba.dubbo.config.spring.schema.DubboBeanDefinitionParser&#10;Dubbo&#9;PSI&#9;JAVA://com.alibaba.dubbo.common.utils.DubboAppender" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -220,7 +442,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Consumer">
+  <component name="RunManager" selected="Application.DubboSPI">
     <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="consumer.Consumer" />
       <module name="self-dubbo-application" />
@@ -234,12 +456,34 @@
       </extension>
     </configuration>
     <configuration name="ConsumerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shadow.dubbo.ConsumerApplication" />
+      <option name="MAIN_CLASS_NAME" value="com.shadow.dubbospi.ConsumerApplication" />
       <module name="dubbo-xml-consumer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shadow.dubbo.*" />
+          <option name="PATTERN" value="com.shadow.dubbospi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="DubboSPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shadow.dubbospi.DubboSPI" />
+      <module name="java-dubbo-spi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shadow.dubbospi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="JavaSPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shadow.javaspi.JavaSPI" />
+      <module name="java-dubbo-spi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shadow.javaspi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -252,17 +496,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="provider.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ProviderApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shadow.dubbo.ProviderApplication" />
-      <module name="dubbo-xml-provider" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shadow.dubbo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -309,17 +542,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ProviderApplication" />
       <item itemvalue="Application.ConsumerApplication" />
       <item itemvalue="Application.Provider" />
       <item itemvalue="Application.Consumer" />
+      <item itemvalue="Application.JavaSPI" />
+      <item itemvalue="Application.DubboSPI" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DubboSPI" />
+        <item itemvalue="Application.JavaSPI" />
         <item itemvalue="Application.Consumer" />
         <item itemvalue="Application.Provider" />
         <item itemvalue="Application.ConsumerApplication" />
-        <item itemvalue="Application.ProviderApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -335,15 +570,16 @@
       <updated>1584716262210</updated>
       <workItem from="1584716265478" duration="1692000" />
       <workItem from="1584717967698" duration="3851000" />
-      <workItem from="1584756145826" duration="16507000" />
+      <workItem from="1584756145826" duration="21981000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22050000" />
+    <option name="totallyTimeSpent" value="27524000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="597" y="0" width="747" height="688" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5012126" side_tool="true" weight="0.37699115" />
@@ -365,19 +601,19 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="JOL" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987874" visible="true" weight="0.38172042" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987874" visible="true" weight="0.3776596" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37880987" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28860146" />
       <window_info anchor="bottom" id="SonarLint" order="7" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,196 +681,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dubbo-common-api/src/main/java/com/shadow/dubbo/DemoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-xml-provider/src/main/java/com/shadow/dubbo/service/DemoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-xml-provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-xml-provider/src/main/java/com/shadow/dubbo/ProviderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-common-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar!/lombok/extern/slf4j/Slf4j.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://SpringLocalModels/module=dubbo-provider">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>SpringLocalModels</ID>
-          <OriginalElement>module=dubbo-provider</OriginalElement>
-          <nodes>
-            <node x="" y="">module=dubbo-provider</node>
-            <node x="" y="" />
-            <node x="" y="">filePath=F:/myProjects/shadow.dubbo/dubbo-provider/src/main/resources/dubbo-provider.xml</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="263.0" y="11.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category />
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.IntelliJIdea2018.1/system/extResources/de99eb83_dubbo.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="73" lean-forward="true" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/MavenRepository/com/alibaba/dubbo/2.6.5/dubbo-2.6.5.jar!/com/alibaba/dubbo/qos/protocol/QosProtocolWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-xml-provider/src/main/resources/dubbo-provider.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" column="79" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-common-api/src/main/java/com/shadow/dubbo/DemoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-xml-consumer/src/main/java/com/shadow/dubbo/ConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-xml-consumer/src/main/resources/dubbo-consumer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-xml-provider/target/classes/com/shadow/dubbo/service/DemoServiceImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-xml-consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-xml-provider/src/main/java/com/shadow/dubbo/ProviderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/self-dubbo-application/src/main/resources/note.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="76">
-            <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/self-dubbo-application/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/self-dubbo-application/src/main/java/protocol/http/DispacherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-xml-provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/self-dubbo-application/src/main/java/provider/LocalRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#176#191#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/self-dubbo-application/src/main/java/protocol/http/HttpServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -680,7 +726,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-xml-provider/src/main/java/com/shadow/dubbo/service/DemoServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-xml-provider/src/main/java/com/shadow/dubbospi/service/DemoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
@@ -904,13 +950,223 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://E:/MavenRepository/com/alibaba/dubbo/2.6.6/dubbo-2.6.6.jar!/META-INF/dubbo/internal/com.alibaba.dubbo.cache.CacheFactory">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/MavenRepository/com/alibaba/dubbo/2.6.6/dubbo-2.6.6.jar!/com/alibaba/dubbo/config/spring/schema/DubboBeanDefinitionParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="143" column="25" lean-forward="true" selection-start-line="143" selection-start-column="25" selection-end-line="143" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/self-dubbo-application/src/main/java/framework/ProtocolFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state>
+          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/MavenRepository/com/alibaba/dubbo/2.6.6/dubbo-2.6.6.jar!/com/alibaba/dubbo/common/extension/ExtensionLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk8/src.zip!/java/util/ServiceLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="176" column="2" selection-start-line="176" selection-start-column="2" selection-end-line="176" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-xml-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="35" column="21" selection-start-line="31" selection-start-column="9" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/javaspi/service/impl/RedColor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding>
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/javaspi/service/impl/BlackColor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding>
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/javaspi/service/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-dubbo-spi/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-dubbo-spi/src/main/resources/META-INF/services/com.shadow.javaspi.spi.com.shadow.java.service.Color">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="40" selection-start-column="40" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/dubbospi/spi/DubboSPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/javaspi/JavaSPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/dubbospi/service/ioc/impl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/dubbospi/service/impl/RedFlagCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/dubbospi/service/impl/AudiCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="50" lean-forward="true" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#112#113#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/dubbospi/service/aop/CarWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-dubbo-spi/src/main/resources/META-INF/services/com.shadow.dubbospi.service.Car">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/dubbospi/service/ioc/impl/SuperMan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/dubbospi/DubboSPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="41" column="32" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-dubbo-spi/src/main/resources/META-INF/services/com.shadow.dubbospi.service.ioc.Person">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/dubbospi/service/ioc/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-dubbo-spi/src/main/java/com/shadow/dubbospi/service/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/READMINE.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="219">
+            <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -966,7 +1222,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>self-dubbo-application</last-edited>
+          <last-edited>java-dubbo-spi</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

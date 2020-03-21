@@ -9,6 +9,7 @@
         <module name="dubbo-common-api" />
         <module name="dubbo-xml-consumer" />
         <module name="dubbo-xml-provider" />
+        <module name="java-dubbo-spi" />
         <module name="self-dubbo-application" />
       </profile>
     </annotationProcessing>

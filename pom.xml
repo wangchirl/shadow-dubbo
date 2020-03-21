@@ -12,6 +12,7 @@
         <module>dubbo-xml-consumer</module>
         <module>dubbo-xml-provider</module>
         <module>self-dubbo-application</module>
+        <module>java-dubbo-spi</module>
     </modules>
     <packaging>pom</packaging>
 

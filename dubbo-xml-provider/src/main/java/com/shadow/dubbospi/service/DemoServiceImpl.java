@@ -1,6 +1,6 @@
-package com.shadow.dubbo.service;
+package com.shadow.dubbospi.service;
 
-import com.shadow.dubbo.DemoService;
+import com.shadow.dubbospi.DemoService;
 
 public class DemoServiceImpl implements DemoService {
 

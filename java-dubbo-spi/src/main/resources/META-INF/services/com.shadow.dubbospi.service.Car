@@ -1,0 +1,3 @@
+redFlag=com.shadow.dubbospi.service.impl.RedFlagCar
+audi=com.shadow.dubbospi.service.impl.AudiCar
+com.shadow.dubbospi.service.aop.CarWrapper

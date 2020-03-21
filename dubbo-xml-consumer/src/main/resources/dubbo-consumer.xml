@@ -8,5 +8,5 @@
     <dubbo:application name="demo-consumer"/>
     <dubbo:registry address="zookeeper://127.0.0.1:2181"/>
     <dubbo:protocol name="dubbo"/>
-    <dubbo:reference id="demoService" interface="com.shadow.dubbo.DemoService"/>
+    <dubbo:reference id="demoService" interface="com.shadow.dubbospi.DemoService"/>
 </beans>

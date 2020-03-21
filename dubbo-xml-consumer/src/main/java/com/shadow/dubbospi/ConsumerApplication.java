@@ -1,4 +1,4 @@
-package com.shadow.dubbo;
+package com.shadow.dubbospi;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

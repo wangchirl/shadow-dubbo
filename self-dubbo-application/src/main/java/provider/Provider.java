@@ -37,7 +37,7 @@ public class Provider {
         //Protocol protocol = new DubboProtocol();
         //protocol.start(url);
 
-        // 5.工厂模式优化 -DprotocolName=dubbo
+        // 5.工厂模式优化 -DprotocolName=dubbospi
         //Protocol protocol = ProtocolFactory.getProtocol();
         //protocol.start(url);
 

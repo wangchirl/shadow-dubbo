@@ -14,7 +14,7 @@ public class ProtocolFactory {
         switch (name){
             case "http":
                 return new HttpProtocol();
-            case "dubbo":
+            case "dubbospi":
                 return new DubboProtocol();
             default:
                 break;
@@ -23,7 +23,7 @@ public class ProtocolFactory {
     }
 
 
-    // META-INF/services/framework.Protocol里填写实现类protocol.dubbo.DubboProtocol或者protocol.http.HttpProtocol
+    // META-INF/services/framework.Protocol里填写实现类protocol.dubbospi.DubboProtocol或者protocol.http.HttpProtocol
     public static Protocol getProtocolBySPI(){
         ServiceLoader<Protocol> serviceLoader = ServiceLoader.load(Protocol.class);
         Iterator<Protocol> iterator = serviceLoader.iterator();
