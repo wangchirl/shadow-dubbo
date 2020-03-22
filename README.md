@@ -1,6 +1,6 @@
 ### Dubbo 的 xml 使用
 1. dubbo:service
-2. dubbo:refrence
+2. dubbo:reference
 3. dubbo:protocol
 
 ### 自己实现 http 和 基于 netty 的 dubbo 协议 
