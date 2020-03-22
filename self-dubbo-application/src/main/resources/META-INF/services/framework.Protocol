@@ -1,1 +1,1 @@
-protocol.http.HttpProtocol
+protocol.dubbo.DubboProtocol
