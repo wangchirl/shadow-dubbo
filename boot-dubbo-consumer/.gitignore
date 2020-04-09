@@ -29,15 +29,3 @@ build/
 
 ### VS Code ###
 .vscode/
-
-### MAVEN ###
-.mvn
-mvnw
-mvnw.cmd
-mp-generator-output
-app-log
-
-HELP.md
-FAQ.md
-/dubbo-admin
-/dubbo-zk
