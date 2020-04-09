@@ -22,7 +22,7 @@
     - weight 权重
     - retries 重试次数
     - timeout 超时时间
-2. @Refrence 订阅服务 
+2. @Reference 订阅服务 
     - version 版本号-灰度发布
     - url 服务直连
     - timeout 超时时间
